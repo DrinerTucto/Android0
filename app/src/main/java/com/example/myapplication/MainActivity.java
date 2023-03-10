@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void onClick(View view) {
         String n1;
+n1=p1.getText().toString();
 
-
-    txt.setText("Hola mundo");
+    txt.setText("Hola mundo "+n1);
     }
 }
 
